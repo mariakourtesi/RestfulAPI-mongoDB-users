@@ -7,10 +7,6 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded()); 
 
-
-
    
+module.exports = app
 
-app.listen(process.env.PORT || 5000, () =>{
-    console.log('Server is up and running 🚀');
-});

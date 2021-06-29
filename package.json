@@ -7,7 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "format": "prettier-standard --format",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "author": "Maria Kourtesi",
   "license": "ISC",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.7",
-    "prettier-standard": "^16.4.1"
+    "prettier-standard": "^16.4.1",
+    "supertest": "^6.1.3"
   }
 }
