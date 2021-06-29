@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier-standard --format",
+    "start": "nodemon app.js"
   },
   "author": "Maria Kourtesi",
   "license": "ISC",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "prettier-standard": "^16.4.1"
   }
 }
